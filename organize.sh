@@ -48,7 +48,7 @@ move_item() {
 
   if [[ "$DRY_RUN" == false ]]; then
     mkdir -p "$dst_dir"
-    mv "$src" "$dst" && ((MOVED++)) || { echo "[ERROR] Failed to move: $src"; ((ERRORS++)) || true; }
+    if mv "$src" "$dst"; then ((MOVED++)) || true; else echo "[ERROR] Failed to move: $src"; ((ERRORS++)) || true; fi
   else
     ((MOVED++)) || true
   fi
