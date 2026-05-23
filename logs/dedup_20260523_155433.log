@@ -1,0 +1,52 @@
+==========================================
+ Duplicate & Redundant File Cleanup
+ Started: Sat May 23 15:54:33 EDT 2026
+==========================================
+
+── Section 1: G:\Backup files\movies — Terminator duplicates ──
+   (All three are identical copies already in G:\Media\Movies\The Terminator Collection)
+
+[DELETE] /mnt/g/Backup files/movies/Terminator 1984
+         Reason: Duplicate of G:\Media\Movies\The Terminator Collection\1984.The.Terminator.1920x1040.BDRip.x264.DTS-HD.MA.mkv (identical filename + 15G size)
+         Size:   15G
+
+[DELETE] /mnt/g/Backup files/movies/Terminator Genisys
+         Reason: Duplicate of G:\Media\Movies\The Terminator Collection\2015.Terminator.Genisys.1920x804.BDRip.x264.TrueHD-Atmos.mkv (identical filename + 18G size)
+         Size:   18G
+
+[DELETE] /mnt/g/Backup files/movies/Terminator Salvation
+         Reason: Duplicate of G:\Media\Movies\The Terminator Collection\2009.Terminator.Salvation.1920x800.BDRip.x264.DTS-HD.MA.mkv (identical filename + 15G size)
+         Size:   15G
+
+── Section 2: C:\Downloads — archive+folder pairs ──
+   (Archive deleted; extracted folder kept)
+
+[DELETE] /mnt/c/Users/madma/Downloads/Aurora.zip
+         Reason: Folder 'Aurora' already extracted in same directory (79M)
+         Size:   79M
+
+[DELETE] /mnt/c/Users/madma/Downloads/Call of Duty - World at War - Final Fronts (USA) (En,Fr).7z
+         Reason: Folder 'Call of Duty - World at War - Final Fronts (USA) (En,Fr)' already extracted (1G)
+         Size:   1006M
+
+[DELETE] /mnt/c/Users/madma/Downloads/fo1-madmaxlgndklr-a17de89b61a93ef.zip
+         Reason: Folder 'fo1-madmaxlgndklr-a17de89b61a93ef' already extracted (22M)
+         Size:   22M
+
+[DELETE] /mnt/c/Users/madma/Downloads/XInputPlus Ver4.16.1.zip
+         Reason: Folder 'XInputPlus Ver4.16.1' already extracted (2M)
+         Size:   2.0M
+
+── Section 3: C:\Downloads — redundant installer formats ──
+
+[DELETE] /mnt/c/Users/madma/Downloads/jetbrains-toolbox-2.2.3.20090.tar.gz
+         Reason: Redundant Linux/Mac format — Windows installer jetbrains-toolbox-2.2.3.20090.exe present
+         Size:   70M
+
+==========================================
+ Finished: Sat May 23 15:54:38 EDT 2026
+ Deleted:  8 items
+ Skipped:  0 items
+ Errors:   0
+ Freed:    ~46.9 GB
+==========================================
