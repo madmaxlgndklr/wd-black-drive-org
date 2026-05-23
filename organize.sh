@@ -80,6 +80,7 @@ echo ""
 echo "── Section 1: Ubisoft Games (root → Games/Ubisoft/) ──"
 AC_ROOT_GAMES=(
   "Assassin's Creed 1"
+  $'Assassin\xe2\x80\x99s Creed 1'
   "Assassin's Creed II"
   "Assassin's Creed Brotherhood"
   "Assassin's Creed Revelations"

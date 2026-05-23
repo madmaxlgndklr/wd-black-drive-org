@@ -3,6 +3,15 @@
 Reorganizes the WD_BLACK external drive from a flat/scattered layout into a clean,
 category-based structure grouped by application type and game launcher.
 
+## Status
+
+| Task | Result | Date |
+|------|--------|------|
+| Drive reorganization | 61/62 items moved (1 error — see below) | 2026-05-23 |
+| Duplicate cleanup | 8 items deleted, ~47 GB freed | 2026-05-23 |
+
+**Outstanding:** `Assassin's Creed 1` failed to move due to an apostrophe encoding mismatch on the NTFS/CIFS mount (the folder name uses a Unicode curly apostrophe U+2019 rather than a straight apostrophe). The script has been updated to try both variants on re-run — or move it manually to `G:\Games\Ubisoft\Assassin's Creed 1`.
+
 ## Target Structure
 
 ```

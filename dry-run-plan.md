@@ -1,8 +1,8 @@
 # Dry-Run Plan — WD_BLACK (G:) Reorganization
-Generated: 2026-05-23
+Generated: 2026-05-23 | **Executed: 2026-05-23**
 
-This document lists every move that `organize.sh` will perform.
-No files have been moved yet. Review and confirm before executing.
+This document lists every move that `organize.sh` performed.
+**Result: 61/62 items moved. 1 error — `Assassin's Creed 1` (apostrophe encoding). See README for details.**
 
 ---
 
