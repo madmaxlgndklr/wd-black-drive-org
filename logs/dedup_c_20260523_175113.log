@@ -1,0 +1,119 @@
+============================================
+ C:\ Drive Duplicate & Redundant File Cleanup
+ Started: Sat May 23 17:51:13 EDT 2026
+ MODE: DRY RUN
+============================================
+
+── Section 1: Downloads — exact duplicates (MD5 verified) ──
+[DELETE] /mnt/c/Users/madma/Downloads/OCP 2.4 (1).zip
+         Reason: Exact duplicate of 'OCP 2.4.zip' (MD5: fad0b04eefc398a029dd9f7bf988a95c)
+         Size:   861M
+
+[DELETE] /mnt/c/Users/madma/Downloads/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331 (1).zip
+         Reason: Exact duplicate of same-named zip without (1) suffix (MD5: b853789b42fc979062df6c227d68b085)
+         Size:   276M
+
+[DELETE] /mnt/c/Users/madma/Downloads/Mod Organizer 2-6194-2-4-4-1640622655.exe
+         Reason: Identical to Mod.Organizer-2.4.4.exe (MD5: eaef94e94350807d6a73151483f0d46b) — keeping clean-named version
+         Size:   88M
+
+[DELETE] /mnt/c/Users/madma/Downloads/CoD1Remastered-1672-1-1670882777.7z
+         Reason: Identical to CoD1RemasteredReshade.7z (same MD5) — keeping descriptively-named version
+         Size:   4.1M
+
+[DELETE] /mnt/c/Users/madma/Downloads/CM-Punk-Cult-of-Personality.mp3
+         Reason: Same file present in Music/WWE 2K/ — keeping organized copy
+         Size:   4.3M
+
+[DELETE] /mnt/c/Users/madma/Downloads/Me_Tricia_Bardon.docx
+         Reason: Same file present in Documents/Tricia_Bardon.../Tricia_Bardon...(1)/ — keeping organized copy
+         Size:   8.2M
+
+── Section 2: Downloads — compressed+uncompressed pairs ──
+[DELETE] /mnt/c/Users/madma/Downloads/retropie-buster-4.8-rpi1_zero.img
+         Reason: Uncompressed image (2.9G); compressed retropie-buster-4.8-rpi1_zero.img.gz (848M) retained — decompress to re-flash if needed
+         Size:   2.9G
+
+── Section 3: Downloads — redundant installers ──
+[DELETE] /mnt/c/Users/madma/Downloads/Wondershare_UniConverter_Installer.exe
+         Reason: Wondershare UniConverter already installed at G:\Software\Wondershare UniConverter 17
+         Size:   2.1M
+
+[DELETE] /mnt/c/Users/madma/Downloads/uniconverter_setup_full14236.exe
+         Reason: Older Wondershare UniConverter installer; software already installed on G:\
+         Size:   2.1M
+
+── Section 4: Music/WWE 2K — accidental in-folder copy ──
+[DELETE] /mnt/c/Users/madma/Music/WWE 2K/CM-Punk-Cult-of-Personality - Copy.mp3
+         Reason: Windows 'Copy' duplicate of CM-Punk-Cult-of-Personality.mp3 in same folder
+         Size:   4.3M
+
+── Section 5: OneDrive/Christian Kane — misplaced WWE 2K save data ──
+   (Identical data lives in Music/WWE 2K/1942660/ — Christian Kane folder is wrong location)
+[DELETE] /mnt/c/Users/madma/OneDrive/Christian Kane/1942660
+         Reason: WWE 2K save data (Steam AppID 1942660) misplaced in Christian Kane music folder; identical copy in Music/WWE 2K/1942660/
+         Size:   380M
+
+── Section 6: OneDrive/Music/WWE 2K — mirrors of Music/WWE 2K ──
+[DELETE] /mnt/c/Users/madma/OneDrive/Music/WWE 2K/CM-Punk-Cult-of-Personality.mp3
+         Reason: Mirror of Music/WWE 2K/CM-Punk-Cult-of-Personality.mp3 — keeping local copy
+         Size:   4.3M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Music/WWE 2K/CM-Punk-Cult-of-Personality - Copy.mp3
+         Reason: Mirror of Music/WWE 2K/CM-Punk-Cult-of-Personality - Copy.mp3 — keeping local copy
+         Size:   4.3M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Music/WWE 2K/CM-Punk-Cult-of-Personality.wem
+         Reason: Mirror of Music/WWE 2K/CM-Punk-Cult-of-Personality.wem — keeping local copy
+         Size:   11M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Music/WWE 2K/blankre.wem
+         Reason: Mirror of Music/WWE 2K/blankre.wem — keeping local copy
+         Size:   4.0M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Music/WWE 2K/Cody Rhodes.wem
+         Reason: Mirror of Music/WWE 2K/Cody Rhodes.wem — keeping local copy
+         Size:   3.4M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Music/WWE 2K/D-Generation X.wem
+         Reason: Mirror of Music/WWE 2K/D-Generation X.wem — keeping local copy
+         Size:   2.9M
+
+── Section 7: OneDrive/Pictures — duplicate video files ──
+[DELETE] /mnt/c/Users/madma/OneDrive/Pictures/Tricia Photos_Videos/2025-03-07 (18_47_56) - Doorbell (1).mp4
+         Reason: Identical to '2025-03-07 (18_47_56) - Doorbell.mp4' — downloaded multiple times
+         Size:   3.3M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Pictures/Tricia Photos_Videos/2025-03-07 (18_47_56) - Doorbell (2).mp4
+         Reason: Identical to '2025-03-07 (18_47_56) - Doorbell.mp4'
+         Size:   3.3M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Pictures/Tricia Photos_Videos/2025-03-07 (18_47_56) - Doorbell (3).mp4
+         Reason: Identical to '2025-03-07 (18_47_56) - Doorbell.mp4'
+         Size:   3.3M
+
+[DELETE] /mnt/c/Users/madma/OneDrive/Pictures/Tricia Photos_Videos/cee982c775bd8daadaf079ddf9b8a5af.mp4
+         Reason: Same content as '2025-02-06-100913497.mp4' — hash-named duplicate; keeping date-named version
+         Size:   24M
+
+── Section 8: Documents — redundant zip and smsbackup duplicates ──
+[DELETE] /mnt/c/Users/madma/Documents/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331.zip
+         Reason: Folder '/mnt/c/Users/madma/Documents/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331' already extracted; larger complete archive also in Downloads — zip redundant
+         Size:   144M
+
+[DELETE] /mnt/c/Users/madma/Documents/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331(1)/Me_Tricia_Bardon.smsbackup
+         Reason: Identical to root-level Me_Tricia_Bardon.smsbackup in same parent — keeping root copy
+         Size:   5.9M
+
+[DELETE] /mnt/c/Users/madma/Documents/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331/Tricia_Bardon_Max_Barrett_SMS_Exchange_20250905_20260331(2)/Me_Tricia_Bardon.smsbackup
+         Reason: Identical to root-level Me_Tricia_Bardon.smsbackup — keeping root copy
+         Size:   5.9M
+
+============================================
+ Finished: Sat May 23 17:51:13 EDT 2026
+ Deleted:  24 items
+ Skipped:  0 items
+ Errors:   0
+ Freed:    ~4.65 GB  (4768 MB)
+ (Dry-run — nothing was actually deleted)
+============================================
