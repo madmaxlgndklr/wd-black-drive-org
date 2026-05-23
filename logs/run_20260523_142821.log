@@ -1,0 +1,163 @@
+==========================================
+ WD_BLACK Drive Reorganization
+ Started: Sat May 23 14:28:21 EDT 2026
+ MODE: DRY RUN (no files will be moved)
+==========================================
+
+── Creating directories ──
+[MKDIR] /mnt/g/Games/Ubisoft (dry-run)
+[MKDIR] /mnt/g/Games/Rockstar (dry-run)
+[MKDIR] /mnt/g/Games/Standalone (dry-run)
+[MKDIR] /mnt/g/Retro/ROMs (dry-run)
+[MKDIR] /mnt/g/Retro/Emulators (dry-run)
+[MKDIR] /mnt/g/Software (dry-run)
+[MKDIR] /mnt/g/Media (dry-run)
+
+── Section 1: Ubisoft Games (root → Games/Ubisoft/) ──
+[MOVE]  /mnt/g/Assassin's Creed 1
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed 1
+[MOVE]  /mnt/g/Assassin's Creed II
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed II
+[MOVE]  /mnt/g/Assassin's Creed Brotherhood
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Brotherhood
+[MOVE]  /mnt/g/Assassin's Creed Revelations
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Revelations
+[MOVE]  /mnt/g/Assassin's Creed III Remastered
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed III Remastered
+[MOVE]  /mnt/g/Assassin's Creed IV Black Flag
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed IV Black Flag
+[MOVE]  /mnt/g/Assassin's Creed Rogue
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Rogue
+[MOVE]  /mnt/g/Assassin's Creed Unity
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Unity
+[MOVE]  /mnt/g/Assassin's Creed Syndicate
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Syndicate
+[MOVE]  /mnt/g/Assassin's Creed Origins
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Origins
+[MOVE]  /mnt/g/Assassin's Creed Odyssey
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Odyssey
+[MOVE]  /mnt/g/Assassin's Creed Chronicles China
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Chronicles China
+[MOVE]  /mnt/g/Assassin's Creed Chronicles India
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed Chronicles India
+[MOVE]  /mnt/g/Assassin’s Creed Chronicles Russia
+     -> /mnt/g/Games/Ubisoft/Assassin’s Creed Chronicles Russia
+[MOVE]  /mnt/g/Assassin's Creed (USA, Europe) (En,Fr,De,Es,It) (Rev 1).iso
+     -> /mnt/g/Games/Ubisoft/Assassin's Creed (USA, Europe) (En,Fr,De,Es,It) (Rev 1).iso
+[MOVE]  /mnt/g/Games/Splinter Cell Blacklist
+     -> /mnt/g/Games/Ubisoft/Splinter Cell Blacklist
+[MOVE]  /mnt/g/Games/Splinter Cell Chaos Theory
+     -> /mnt/g/Games/Ubisoft/Splinter Cell Chaos Theory
+[MOVE]  /mnt/g/Games/Splinter Cell Conviction
+     -> /mnt/g/Games/Ubisoft/Splinter Cell Conviction
+[MOVE]  /mnt/g/Games/Splinter Cell Double Agent
+     -> /mnt/g/Games/Ubisoft/Splinter Cell Double Agent
+[MOVE]  /mnt/g/Games/Tom Clancy's Ghost Recon Wildlands
+     -> /mnt/g/Games/Ubisoft/Tom Clancy's Ghost Recon Wildlands
+
+── Section 2: Rockstar Games (root → Games/Rockstar/) ──
+[MOVE]  /mnt/g/Red Dead Redemption
+     -> /mnt/g/Games/Rockstar/Red Dead Redemption
+
+── Section 3: Steam (no move — SteamLibrary stays at G:\SteamLibrary) ──
+[INFO]  SteamLibrary left in place. Re-link via Steam > Settings > Storage if desired.
+
+── Section 4: Standalone PC Games (Games/ → Games/Standalone/) ──
+[MOVE]  /mnt/g/Games/Call of Duty
+     -> /mnt/g/Games/Standalone/Call of Duty
+[MOVE]  /mnt/g/Games/Metal Gear Solid
+     -> /mnt/g/Games/Standalone/Metal Gear Solid
+[MOVE]  /mnt/g/Games/Shenmue v1.003 (2000)(Sega)(NTSC)(US)[!]
+     -> /mnt/g/Games/Standalone/Shenmue v1.003 (2000)(Sega)(NTSC)(US)[!]
+[MOVE]  /mnt/g/Games/World in Conflict - Complete Edition
+     -> /mnt/g/Games/Standalone/World in Conflict - Complete Edition
+
+── Section 5: Retro ROMs (Games/ → Retro/ROMs/) ──
+[MOVE]  /mnt/g/Games/Arcade
+     -> /mnt/g/Retro/ROMs/Arcade
+[MOVE]  /mnt/g/Games/GBA
+     -> /mnt/g/Retro/ROMs/GBA
+[MOVE]  /mnt/g/Games/GameBoy
+     -> /mnt/g/Retro/ROMs/GameBoy
+[MOVE]  /mnt/g/Games/Gamecube
+     -> /mnt/g/Retro/ROMs/Gamecube
+[MOVE]  /mnt/g/Games/N64
+     -> /mnt/g/Retro/ROMs/N64
+[MOVE]  /mnt/g/Games/NDS
+     -> /mnt/g/Retro/ROMs/NDS
+[MOVE]  /mnt/g/Games/NES
+     -> /mnt/g/Retro/ROMs/NES
+[MOVE]  /mnt/g/Games/PS1
+     -> /mnt/g/Retro/ROMs/PS1
+[MOVE]  /mnt/g/Games/PS2
+     -> /mnt/g/Retro/ROMs/PS2
+[MOVE]  /mnt/g/Games/PS3
+     -> /mnt/g/Retro/ROMs/PS3
+[MOVE]  /mnt/g/Games/PSP
+     -> /mnt/g/Retro/ROMs/PSP
+[MOVE]  /mnt/g/Games/SNES
+     -> /mnt/g/Retro/ROMs/SNES
+[MOVE]  /mnt/g/Games/Switch
+     -> /mnt/g/Retro/ROMs/Switch
+[MOVE]  /mnt/g/Games/Wii
+     -> /mnt/g/Retro/ROMs/Wii
+[MOVE]  /mnt/g/Games/WiiU
+     -> /mnt/g/Retro/ROMs/WiiU
+[MOVE]  /mnt/g/Games/Xbox
+     -> /mnt/g/Retro/ROMs/Xbox
+[MOVE]  /mnt/g/Games/sgenroms
+     -> /mnt/g/Retro/ROMs/sgenroms
+[MOVE]  /mnt/g/Games/Pokemon Roms
+     -> /mnt/g/Retro/ROMs/Pokemon Roms
+
+── Section 6: Emulators & Tools (Games/ → Retro/Emulators/) ──
+[MOVE]  /mnt/g/Games/Mesen
+     -> /mnt/g/Retro/Emulators/Mesen
+[MOVE]  /mnt/g/Games/Snes9x
+     -> /mnt/g/Retro/Emulators/Snes9x
+[MOVE]  /mnt/g/Games/Retron
+     -> /mnt/g/Retro/Emulators/Retron
+[MOVE]  /mnt/g/Games/VITAMC
+     -> /mnt/g/Retro/Emulators/VITAMC
+[MOVE]  /mnt/g/Games/Switch_RCM
+     -> /mnt/g/Retro/Emulators/Switch_RCM
+[MOVE]  /mnt/g/Games/PKHeX (221218)
+     -> /mnt/g/Retro/Emulators/PKHeX
+[MOVE]  /mnt/g/Games/Brew.NET.dll
+     -> /mnt/g/Retro/Emulators/Brew.NET.dll
+[MOVE]  /mnt/g/Games/ControlzEx.dll
+     -> /mnt/g/Retro/Emulators/ControlzEx.dll
+[MOVE]  /mnt/g/Games/Lunar IPS.exe
+     -> /mnt/g/Retro/Emulators/Lunar IPS.exe
+[MOVE]  /mnt/g/Games/MahApps.Metro.dll
+     -> /mnt/g/Retro/Emulators/MahApps.Metro.dll
+[MOVE]  /mnt/g/Games/MaterialDesignColors.dll
+     -> /mnt/g/Retro/Emulators/MaterialDesignColors.dll
+[MOVE]  /mnt/g/Games/MaterialDesignThemes.Wpf.dll
+     -> /mnt/g/Retro/Emulators/MaterialDesignThemes.Wpf.dll
+[MOVE]  /mnt/g/Games/NSPack.exe
+     -> /mnt/g/Retro/Emulators/NSPack.exe
+[MOVE]  /mnt/g/Games/System.Windows.Interactivity.dll
+     -> /mnt/g/Retro/Emulators/System.Windows.Interactivity.dll
+
+── Section 7: Software (root → Software/) ──
+[MOVE]  /mnt/g/Wondershare
+     -> /mnt/g/Software/Wondershare
+[MOVE]  /mnt/g/Wondershare UniConverter 17
+     -> /mnt/g/Software/Wondershare UniConverter 17
+
+── Section 8: Media ──
+[MOVE]  /mnt/g/Movies
+     -> /mnt/g/Media/Movies
+[MOVE]  /mnt/g/iCloud Photos.zip
+     -> /mnt/g/Media/iCloud Photos.zip
+[MOVE]  /mnt/g/iCloud Photos (1).zip
+     -> /mnt/g/Media/iCloud Photos (1).zip
+
+==========================================
+ Finished: Sat May 23 14:28:21 EDT 2026
+ Moved:    62
+ Skipped:  0
+ Errors:   0
+ (Dry-run — no files were actually moved)
+==========================================
